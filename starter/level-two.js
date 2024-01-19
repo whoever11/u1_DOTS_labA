@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
             score += 10
 
             // Update the score display
-            scoreDisplay.textContent = score;
+            scoreDisplay.textContent = score
 
             // Check if the score reaches 100
             if (score == 100) {
@@ -26,9 +26,17 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         })
 
-      
+        // Set ball color to black
+        ball.style.backgroundColor = "black"
     })
 
     function goToNextLevel() {
     }
 })
+
+// Set background color to white
+document.body.style.backgroundColor = "white"
+document.body.style.color = "black"
+// Set score text and number to black
+scoreDisplay.style.color = "black"
+levelWinner.style.color = "black"
