@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
 
     function goToNextLevel() {
-      // Code to go to the next level
-      // Add your implementation here
+  
     }
 })
