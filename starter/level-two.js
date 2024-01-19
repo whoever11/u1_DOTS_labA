@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Get the ball elements
     const balls = document.querySelectorAll(".ball")
     const scoreDisplay = document.querySelector(".score")
-    const levelWinner = document.querySelector(".level-winner") // Add missing variable declaration
+    const levelWinner = document.querySelector(".level-winner") 
 
     let score = 0
 
